@@ -37,5 +37,7 @@ Google Apps Script는 사용자가 자신의 시트에 배포하기 전이므로
 - 브라우저 통신을 로컬에서 가로챈 mock으로 불일치 ACK를 성공 처리하지 않음 확인. 동일 submissionId 재전송 후 일치 ACK만 저장 확인으로 표시. 데모 미전송 확인.
 - 주요 5개 화면의 1440·768·375px 폭에서 페이지 전체 수평 넘침 없음. 1024×768 MRF, 375×812 MRF·VAS, 밝은/어두운 첫 화면 확인.
 - 검사한 실험 흐름에서 브라우저 실행 오류 없음. 화면의 원자료 표는 좁은 화면에서 의도적으로 내부 가로 스크롤 사용.
+- [실제 GitHub Pages](https://ckmzx.github.io/focus-jump-lab/)에서 HTTP 200, 정상 자산 로딩과 참가자 등록 확인. D군 연습 참여자로 중복 등록 거부, 설문 취소 후 동일 단계 유지·미제출 응답 초기화, 사유 필수 결측 처리, 중단 사유·확인 체크 필수, 중단 후 원자료 보존을 추가 검증.
+- 중단 JSON에서 MRF-3 세 점수 모두 `null`이고 결측 사유와 기존 5개 단계가 보존됨을 확인. [최초 GitHub Actions 빌드·배포](https://github.com/ckmzx/focus-jump-lab/actions/runs/34179273165) 성공.
 
 실제 iPad Safari와 Android Chrome, 실제 Google 계정·시트·Apps Script 배포는 연구 현장에서 별도로 점검해야 합니다. 조기 진행을 사용한 개발 시험은 10분·48시간 실시간 대기를 시험한 것이 아닙니다.

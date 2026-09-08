@@ -2,6 +2,10 @@
 
 전체적 주의초점(HF)·외적 주의초점(EF)과 압박조건을 비교하는 **연구자 진행용 제자리멀리뛰기 기록 앱**입니다. 한국어 문항은 연구계획 PPT를 웹 입력으로 옮긴 초안이며, 검증된 한국어 번역 척도나 임상 평가도구로 제공하지 않습니다. 문항·조건·순서의 기준은 [`src/protocol.ts`](src/protocol.ts), 데이터 형식은 [`shared/schema.ts`](shared/schema.ts)입니다.
 
+**[실험 웹사이트 열기](https://ckmzx.github.io/focus-jump-lab/)** · [Google Sheets 설치 안내](apps-script/README.md) · [측정 가이드](docs/MEASUREMENT_GUIDE.md)
+
+2026-09-08 GitHub Pages 배포와 실제 주소의 화면 동작을 확인했습니다. 먼저 ‘연습용 참여자’로 사용 흐름을 점검한 뒤, 확정한 문항과 승인된 연구 절차로 사용하세요.
+
 ## 가장 중요한 저장 안내
 
 **창을 닫거나 새로고침하기 전에 반드시 JSON 백업을 내려받으세요.**
@@ -35,8 +39,8 @@
 
 ## 공개 저장소와 개인정보 경계
 
-- 예정 공개 소스: `ckmzx/focus-jump-lab`
-- GitHub Pages 주소 형식: `https://ckmzx.github.io/focus-jump-lab/` — 실제 공개 여부는 저장소의 Pages 배포 결과에서 확인하세요.
+- 공개 소스: [ckmzx/focus-jump-lab](https://github.com/ckmzx/focus-jump-lab)
+- GitHub Pages: [Focus Lab 실험 웹사이트](https://ckmzx.github.io/focus-jump-lab/)
 - **공개 대상은 앱 소스·문서·합성 테스트뿐입니다.** 연구계획 PPT 원본, 실제 결과, JSON 백업, CSV, 시트 사본, 참여자 식별표, 스크린샷 속 실제 자료, 수집 코드·자격증명은 업로드하지 마세요.
 - 원본 PPT는 로컬 제공 자료로 검토되며 저장소나 빌드에 포함하지 않습니다. GitHub Issues·Actions 로그에도 실제 자료를 붙여넣지 마세요.
 - Sheets 문서는 비공개로 두고 연구팀에만 최소 권한을 부여합니다. 웹 앱의 호출 가능 범위와 시트 자체의 공유 범위는 별개입니다.
